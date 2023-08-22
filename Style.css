@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  height: 100%;
+  width:  100%;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color:white;
+  }
+  
+  /* Bottom left text */
+  .buttons{
+    position: absolute;
+    margin: -84px;
+    height: 2vh;
+    width: 5vw;
+    left: 50%;
+  }
+
+  .buttons button{
+   padding: 9px 14px;
+   border-radius: 22px;
+   color: white;
+   background-color: rgb(3, 70, 11);
+   font-weight: bold;
+   font-size: 10px;
+   margin: -31px 3px;
+   cursor: pointer;
+}
+
+.buttons button:hover{
+   background-color: white;
+   color: rgb(3, 70, 11);
+}
+  
+  /* Top right text */
+  .top-right {
+    color: rgb(24, 45, 2);
+    position: absolute;
+    top: 8px;
+    font-weight: bold;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+    margin: 8px;
+    transform: translate(-50%, -50%);
+  }
+  .middle img{
+    position: absolute;
+    height: 8vh;
+    width: 8vw;
+    top: 10px;
+    left: 50%;
+ }
+
+ 
+
+
+.Sidebar{
+   position:absolute;
+   background-color: rgb(6, 244, 145);
+   width: 200px;
+   font-family: 'PT Serif', serif;
+   height: 100vh;
+   transition: transform 0.3s ease-in;
+
+}
+
+.Sidebar nav{
+   padding: 45px;
+}
+
+
+.Sidebar nav li{
+   list-style: none;
+   font-size: 25px;
+   padding: 40px 0px;
+}
+
+.Sidebar nav li a{
+   text-decoration: none;
+   color: black;
+}
+
+.maincontent{
+   /* background-color: blanchedalmond; */
+   width: 85vw;
+   margin:40px 33px;
+}
+.container{
+   display: flex;
+}
+
+.hundered{
+   width: 265px;
+   background-color: blueviolet;
+}
+.fifty{
+width: 125px;
+background-color: aqua;
+}
+
+.t5{
+   width: 75px;
+   background-color: chartreuse;
+}
+
+
+.sidebarGO{
+   transform: translate(-443px, 0px);
+}
+
+.hamburger{
+   position: absolute;
+   cursor: pointer;
+   top: 10px;
+   left: 10px;
+}
+
+.cross{
+   margin-left: 160px;
+}
+@media (max-width: 1041px){
+   *{
+   }
+   .devPic{
+       display: none;
+   }
+}
